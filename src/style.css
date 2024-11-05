@@ -1,13 +1,37 @@
 body {
-  background: #f9f7fe;
+  background: #dde7f2;
+  font-family: "Sarabun", sans-serif;
 }
 
 .container {
-  font-family: Sarabun;
   background: white;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   max-width: 600px;
   margin: 40px auto;
   padding: 30px;
   border-radius: 15px;
+}
+
+.search-form-input {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  padding: 20px;
+  width: 80%;
+}
+
+.search-button {
+  background: #769fcd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  background: #83b0e3;
 }
